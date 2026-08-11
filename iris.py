@@ -50,7 +50,7 @@ def user_input_features():
 
 df = user_input_features()
 
-iris =  pd.read_csv('iris1.csv', encoding='latin-1')
+iris =  pd.read_csv('iris.csv', encoding='latin-1')
 
 
 classifier = DecisionTreeClassifier(max_depth=8, criterion='entropy', min_samples_leaf=10, max_features=7, random_state=0)
